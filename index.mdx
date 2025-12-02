@@ -1,60 +1,179 @@
 ---
-title: "Introduction"
-description: "BridgeAI is an intelligent lead-management and communication platform designed specifically for real estate agencies in the UK. It centralises all enquiries from portals, CRMs, WhatsApp, email, and website chatbots into one shared inbox, and enhances them with automated qualification, smart routing, and viewing-booking workflows.
-
-By combining a CRM-hub, omni-channel messaging, and AI-driven automation, BridgeAI helps agencies respond faster, reduce manual work, and convert more leads into successful lettings and sales. The platform integrates with major UK CRMs and portals, unifies data into a consistent structure, and provides a scalable foundation for building advanced customer journeys.
-
-BridgeAI aims to give agents a modern, efficient, and fully automated workflow—so they can focus on closing deals, not chasing inquiries."
+title: "BridgeAI Features"
+description: "Explore the full set of capabilities that power BridgeAI — from multi-channel lead ingestion and shared inbox, to AI qualification flows, booking automation, CRM integrations, and analytics. This section provides a clear overview of how each module works and how agencies benefit from the BridgeAI ecosystem."
 ---
 
-## Setting up
+# BridgeAI Features Overview
 
-Get your documentation site up and running in minutes.
+BridgeAI provides a complete ecosystem for managing leads, conversations, automation flows, properties, appointments, and CRM integrations — all designed for real estate agencies that need efficiency, consistency, and speed.
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
+This section gives you a structured overview of every feature in the platform, what it does, and where to find the detailed documentation.
 
-## Make it yours
+---
 
-Design a docs site that looks great and empowers your users.
+## 1. Shared Inbox
+
+All customer conversations from every channel appear in one unified inbox.
 
 <Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
+  <Card title="Lead View" icon="message" href="/features/shared-inbox/lead-view">
+    Introduction to the lead view, conversation list, and its options.
   </Card>
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
+  <Card title="Contact View" icon="message" href="/features/shared-inbox/contact-view">
+    Introduction to the contact view, conversation list, and its options.
   </Card>
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
+</Columns>
+  
+
+---
+
+## 2. Flows & Automated Actions
+
+BridgeAI automates the customer journey using AI-driven, rule-based workflow engines.
+
+<Columns cols={2}>
+  <Card title="Rent Flow" icon="house" href="/features/flows/rent">
+    Qualification, property matching, and viewing booking for rentals.
   </Card>
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
+
+  <Card title="Sales & Valuation" icon="sterling-sign" href="/features/flows/sales">
+    Lead routing, valuation flows, and sales-specific automation.
+  </Card>
+
+  <Card title="General Flow" icon="flowchart" href="/features/flows/general">
+    Default flow for unclassified or generic enquiries.
+  </Card>
+
+  <Card title="Chasing & Follow-ups" icon="paper-plane" href="/features/flows/chasing">
+    Automated follow-up messages for cold or inactive leads.
+  </Card>
+
+  <Card title="Expiring Flow" icon="hourglass-half" href="/features/flows/expiring">
+    Automations triggered when leads are about to expire.
   </Card>
 </Columns>
 
-## Create beautiful pages
+Additional features included inside flows:
 
-Everything you need to create world-class documentation.
+- Rewording engine  
+- “New property available” automated action  
+- Custom questions  
+- Similar properties recommendations  
+- AI agent interaction logic  
+
+---
+
+## 3. Channels
+
+BridgeAI centralizes all communication channels into one engine.
 
 <Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
+  <Card title="WhatsApp" icon="whatsapp" href="/features/channels/whatsapp">
+    WhatsApp messaging, agency onboarding, templates, and media support.
   </Card>
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
+
+  <Card title="Email" icon="envelope" href="/features/channels/email">
+    Two-way email sync, threading, and message routing.
   </Card>
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
+
+  <Card title="SMS & Twilio" icon="comment-sms" href="/features/channels/sms">
+    SMS sending and receiving using Twilio integration.
   </Card>
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
+
+  <Card title="Website Bot" icon="robot" href="/features/channels/website-bot">
+    How the embedded widget collects leads and starts automated flows.
   </Card>
 </Columns>
 
-## Need inspiration?
+---
 
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
+## 4. Properties
+
+Property data is synchronized from CRMs and used across flows, search, and scheduling.
+
+<Columns cols={2}>
+  <Card title="Property Listing & Search" icon="building" href="/features/properties/listing">
+    How property data is displayed, filtered, and searched.
+  </Card>
+
+  <Card title="Available Dates" icon="calendar" href="/features/properties/available-dates">
+    How availability is calculated based on agent diaries and travel time.
+  </Card>
+
+  <Card title="Appointments Calendar" icon="calendar-days" href="/features/properties/calendar">
+    Central calendar for all viewings and property-related events.
+  </Card>
+</Columns>
+
+---
+
+## 5. Notifications
+
+BridgeAI provides a real-time notification system for events across the platform.
+
+<Columns cols={2}>
+  <Card title="Listing & Marking as Read" icon="bell" href="/features/notifications/listing">
+    Notification listing and message read/unread logic.
+  </Card>
+
+  <Card title="Floating Notifications" icon="bell-on" href="/features/notifications/floating">
+    In-app floating alerts for high-priority events.
+  </Card>
+</Columns>
+
+---
+
+## 6. Campaigns
+
+A powerful outbound campaign engine for bulk messaging and audience targeting.
+
+<Card title="Campaign Overview" icon="bullhorn" href="/features/campaigns/introduction">
+  Explanation of the campaign system, targeting logic, and capabilities.
 </Card>
+
+---
+
+## 7. Settings
+
+A full configuration centre for agency preferences.
+
+<Card title="Settings Overview" icon="gear" href="/features/settings/introduction">
+  Explanation of each settings category with screenshots and definitions.
+</Card>
+
+---
+
+## 8. CRM Integrations
+
+BridgeAI integrates with major UK CRMs and property portals.
+
+<Columns cols={2}>
+  <Card title="Alto" icon="plug" href="/features/crm-integrations/alto" />
+  <Card title="Apex27" icon="plug" href="/features/crm-integrations/apex27" />
+  <Card title="Reapit" icon="plug" href="/features/crm-integrations/reapit" />
+  <Card title="Rightmove" icon="plug" href="/features/crm-integrations/rightmove" />
+  <Card title="OnTheMarket" icon="plug" href="/features/crm-integrations/otm" />
+  <Card title="Zoopla" icon="plug" href="/features/crm-integrations/zoopla" />
+</Columns>
+
+<Card title="Integration Docs Used" icon="book" href="/features/crm-integrations/docs">
+  Explanation of which API references BridgeAI uses for each CRM.
+</Card>
+
+---
+
+## 9. CRM Hub
+
+<Card title="CRM Hub Overview" icon="server" href="/features/crm-hub/introduction">
+  Explanation of the CRM Hub service, its purpose, and its architecture.
+</Card>
+
+---
+
+## 10. File Handling
+
+<Card title="File Storage & Uploads" icon="folder" href="/features/file-handling/introduction">
+  Explanation of how BridgeAI handles files and media using AWS S3.
+</Card>
+
+---
